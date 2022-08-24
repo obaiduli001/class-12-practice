@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .full-website{
+    width: 1024px;
+} */
+.manu-div{
+background-color: #34495e;
+/* width: 800px; */
+margin: auto;
+text-align: center;
+
+}
+.manu-div ul{
+    display: inline-block;
+
+}
+.manu-div ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.manu-div ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: 1px solid #ddd;
+   font-size: 20px;
+   transition: .5s;
+}
+
+.last{
+    border-right: 1px solid #ddd; 
+}
+
+.manu-div ul li:hover> a{
+    background-color: #c0392b;
+}
+
+/* Dropdouwn Manu style start  */
+
+.full-website .manu-div ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    width: 250px;
+    background-color: #34495e;
+    border-left: none;
+ 
+}
+.full-website .manu-div ul li ul li{
+    display: block;
+    margin-left: 0;
+    margin-bottom: -5px;
+    border-top: 1px solid #ddd;
+
+}
+.full-website .manu-div ul li ul li a{
+    display: block;
+    margin-left: -5px;
+    margin-right: -5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: -5px;
+   
+
+}
+.full-website .manu-div ul li ul li a:hover{}
+
+/* This is hover part  */
+.manu-div ul li ul{
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: scaleY(0);
+  transform-origin: top center;
+   
+}
+.manu-div ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+
+
+
+
+
+
+ol, .ddd {
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-image: url("./img/002-right-arrow-2.png");
+list-style-position: inside;
+}
+
+
+ol{
+    list-style-image: url("./img/003-right-arrow.png");
+}
+
+
+
+/* This is social manu  */
+
+.social-manu{
+    width: 400px;
+    margin: auto;
+}
+
+.social-manu ul {
+text-align: center;
+}
+
+.social-manu ul li {
+    display: inline-block;
+    margin: 5px;    
+ 
+}
+
+.social-manu ul li a {
+    color: white;
+    background-color: #34495e;
+    margin-left: -3px;
+    padding: 10px;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    padding-top: 11px;
+}
+
+.social-manu ul li a:hover{}
